@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+.city {
+  width: 70vw;
+  height: 70vh;
+}
+
+.budapest {
+  background: url(img/budapest.jpg);
+  background-size: cover;
+}
+
+.gravedona {
+  background: url(img/gravedona.jpg);
+  background-size: cover;
+}
+
+.dublino {
+  background: url(img/dublino.jpg);
+  background-size: cover;
+}
