@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 15vh;
+}
+
+div.city {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+
+}
+
+.budapest {
+  background: url(../img/budapest.jpg);
+}
+
+.gravedona {
+  background: url(../img/gravedona.jpg);
+}
+
+.dublino {
+  background: url(../img/dublino.jpg);
+}
+
+.name {
+  color: white;
+  font-size: 8vh;
+  font-family: 'Domine', serif;
+  text-shadow: 1vh 0.5vh #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shadow {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.city:hover .shadow {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.city:hover .name {
+  font-size: 20vh;
+  font-family: 'Lobster', cursive;
+  text-shadow: 0vh 0vh;
+  color: rgba(255, 255, 255, 0.3);
+}
