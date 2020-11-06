@@ -4,6 +4,32 @@
   border: 0;
 }
 
+header {
+  position: fixed;
+  font-size: 10vh;
+  font-family: 'Lobster', cursive;
+  width: 100vw;
+  background: rgba(219, 149, 10, 0.5);
+  z-index: 1;
+}
+
+.title {
+  padding-left: 3vh;
+  display: inline-block;
+}
+
+.search {
+  font-size: 4vh;
+  border-radius: 50px;
+  padding: 1vh;
+  font-family: 'Lobster', cursive;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  margin-right: 3vh;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
