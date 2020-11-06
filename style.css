@@ -4,15 +4,12 @@
   border: 0;
 }
 
-.container {
-  padding: 10vh;
-}
-
 div.city {
   width: 90vw;
   height: 90vh;
   background-size: cover;
   position: relative;
+
 }
 
 .budapest {
@@ -31,8 +28,15 @@ div.city {
   color: white;
   font-size: 8vh;
   font-family: 'Domine', serif;
+  text-shadow: 1vh 0.5vh #000000;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.shadow {
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.4);
 }
