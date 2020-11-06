@@ -4,22 +4,35 @@
   border: 0;
 }
 
-.city {
-  width: 70vw;
-  height: 70vh;
+.container {
+  padding: 10vh;
+}
+
+div.city {
+  width: 90vw;
+  height: 90vh;
+  background-size: cover;
+  position: relative;
 }
 
 .budapest {
   background: url(img/budapest.jpg);
-  background-size: cover;
 }
 
 .gravedona {
   background: url(img/gravedona.jpg);
-  background-size: cover;
 }
 
 .dublino {
   background: url(img/dublino.jpg);
-  background-size: cover;
+}
+
+.name {
+  color: white;
+  font-size: 8vh;
+  font-family: 'Domine', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
