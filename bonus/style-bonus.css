@@ -38,7 +38,6 @@ header > * {
 }
 
 .container {
-  width: 100vw;
   height: 100vh;
   padding: 15vh;
 }
@@ -48,7 +47,6 @@ div.city {
   height: 100%;
   background-size: cover;
   position: relative;
-
 }
 
 .budapest {
